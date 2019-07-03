@@ -1,0 +1,27 @@
+{
+  "name": "unicorn-runner",
+  "version": "1.0.0",
+  "description": "unicorn-runner",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdoc": "~3.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "rm -rf docs/*; ./node_modules/.bin/jsdoc ./js/* --destination ./docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobolev-ax/unicorn-runner.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "sobolev.ax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sobolev-ax/unicorn-runner/issues"
+  },
+  "homepage": "https://github.com/sobolev-ax/unicorn-runner#readme"
+}

@@ -1,3 +1,22 @@
+/**
+ * @param {Object[]} filter - a list of literal filter objects
+ * @param {string} filter[].id -  id to filter against...
+ * @param {string|number} filter[].value - value to filter for...
+ */
+function doSomething(filter) {
+    // do stuff
+}
+
+/**
+ * 
+ * Chars.
+ * 
+ * @globals
+ * @property {string}  imageURL               - The address that points to the image.
+ * @property {Object[]}  frames       - The list of frames.
+ * @property {string} frames[].name - The name of frame.
+ * @property {Object[]} frames[].rect - The name of frame.
+ */
 const ENEMY_BUG = {
     imageURL: 'img/bug_line.png',
     frames: [
